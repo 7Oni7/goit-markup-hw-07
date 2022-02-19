@@ -29,25 +29,18 @@
     margin-right: 93px;
 
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: calc(31 / 26);
-    letter-spacing: 0.03em;
+    @include font(26px, 700, 31px, 0.03em);
+
     color: var(--prymary-text-color);
 
     &-first {
         color: var(--accent-text-color);
     }
 }
-// .logo-first {
-//     color: var(--accent-text-color);
-// }
 
 .header-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
+    @include font(14px, 500, 16px, 0.02em);
+
     color: var(--prymary-text-color);
     text-decoration: none;
 
@@ -82,10 +75,8 @@
 
     fill: var(--function-text-color);
 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
+    @include font(14px, 500, 16px, 0.02em);
+
     color: var(--function-text-color);
     text-decoration: none;
 
@@ -108,10 +99,8 @@
 
     fill: var(--function-text-color);
 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
+    @include font(14px, 500, 16px, 0.02em);
+
     color: var(--function-text-color);
     text-decoration: none;
 

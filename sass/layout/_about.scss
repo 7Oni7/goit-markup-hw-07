@@ -22,19 +22,15 @@
 }
 
 .about-subtitle {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: calc(16 / 14);
+    @include font(14px, 700, 16px, 0.03em);
+
     vertical-align: top;
-    letter-spacing: 0.03em;
     margin-bottom: 10px;
     color: var(--prymary-text-color);
     text-transform: uppercase;
 }
 .about-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
+    @include font(14px, 400, 24px, 0.03em);
+
     color: var(--function-text-color);
 }
