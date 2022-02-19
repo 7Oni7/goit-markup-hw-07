@@ -49,9 +49,9 @@
     transition-property: border-radius;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.hero-btn:hover,
-.hero-btn:focus {
-    border-radius: 0px;
+    &:hover,
+    &:focus {
+        border-radius: 0px;
+    }
 }

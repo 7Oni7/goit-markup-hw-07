@@ -15,11 +15,12 @@
 
 .function-item {
     position: relative;
+
+    & + & {
+        margin-left: 30px;
+    }
 }
 
-.function-item + .function-item {
-    margin-left: 30px;
-}
 .function-wrap {
     position: relative;
 }

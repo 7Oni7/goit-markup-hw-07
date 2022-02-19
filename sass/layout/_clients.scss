@@ -11,8 +11,10 @@
 .clients-list {
     display: flex;
 }
-.clients-item + .clients-item {
-    margin-left: 30px;
+.clients-item {
+    & + & {
+        margin-left: 30px;
+    }
 }
 .clients-link {
     width: 170px;
@@ -29,13 +31,14 @@
     transition-property: color, border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border: 1px solid #2196f3;
+        color: var(--accent-text-color);
+    }
 }
 
 .clients-icon {
     fill: currentColor;
-}
-.clients-link:hover,
-.clients-link:focus {
-    border: 1px solid #2196f3;
-    color: var(--accent-text-color);
 }
