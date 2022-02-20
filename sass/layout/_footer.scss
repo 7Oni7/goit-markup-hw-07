@@ -2,14 +2,14 @@
     padding: 60px 0;
     background-color: #2f303a;
 }
-.footer-conteiner {
+.footer__conteiner {
     display: flex;
     align-items: baseline;
 }
-.footer-conteiner-box {
+.footer__box {
     flex-grow: 1;
 }
-.footer-logo {
+.footer__logo {
     font-family: 'Raleway', sans-serif;
     @include font(26px, 700, 31px, 0.02em);
     font-weight: 700;
@@ -18,11 +18,11 @@
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
-.logo-second {
+.logo__second {
     color: var(--accent-text-color);
 }
 
-.footer-addres {
+.addres {
     display: flex;
 
     margin-top: 20px;
@@ -32,27 +32,27 @@
     @include font(14px, 400, 24px, 0.03em);
 }
 
-.footer-item {
+.addres__item {
     & + & {
         margin-top: 9px;
     }
 }
 
-.footer-link-address {
+.addres__text {
     color: var(--title-text-color);
 }
-.footer-link-mail {
+.addres__mail {
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-link-tel {
+.addres__tel {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-conteiner-icon {
-    margin-left: 70px;
-}
+// .footer-conteiner-icon {
+//     margin-left: 70px;
+// }
 
-.footer-title {
+.footer__title {
     margin-bottom: 20px;
 
     @include font(14px, 700, 16px, 0.03em);
@@ -60,18 +60,18 @@
     text-transform: uppercase;
     color: var(--title-text-color);
 }
-.footer-socials-list {
+.footer-socials__list {
     display: flex;
     justify-content: center;
 }
 
-.footer-socials-item {
+.footer-socials__item {
     & + & {
         margin-left: 10px;
     }
 }
 
-.footer-socials-link {
+.footer-socials__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -89,17 +89,19 @@
         background-color: var(--accent-text-color);
     }
 }
-.footer-socials-icon {
+.footer-socials__icon {
     fill: var(--title-text-color);
 }
-.footer-conteiner-socials {
-    margin-left: 70px;
+// .footer-conteiner-socials {
+//     margin-left: 70px;
+// }
+.mailings {
+    margin-left: 93px;
 }
-
-.footer-field {
+.mailings__field {
     display: flex;
 }
-.footer-imput {
+.mailings__imput {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -110,15 +112,13 @@
 
     padding-left: 16px;
 }
-.footet-imput-wrap {
+.mailings__wrap {
     & + & {
         margin-left: 12px;
     }
 }
-.footer-conteiner-mailing {
-    margin-left: 93px;
-}
-.footer-btm-imput {
+
+.mailings__btn {
     width: 200px;
     height: 50px;
 
@@ -135,6 +135,6 @@
     background-color: var(--accent-text-color);
     border-color: transparent;
 }
-.footer-btm-icon {
+.mailings__icon {
     margin-left: 10px;
 }
