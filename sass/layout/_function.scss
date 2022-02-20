@@ -1,18 +1,18 @@
 .function {
     padding-top: 0;
 }
-.function-title {
+.function-conteiner__title {
     @include font(36px, null, 42px, 0.03em);
 
     text-align: center;
     color: var(--prymary-text-color);
     margin-bottom: 50px;
 }
-.function-list {
+.function-conteiner__list {
     display: flex;
 }
 
-.function-item {
+.function-conteiner__item {
     position: relative;
 
     & + & {
@@ -20,10 +20,10 @@
     }
 }
 
-.function-wrap {
+.function-conteiner__wrap {
     position: relative;
 }
-.function-top-text {
+.function-conteiner__top-text {
     position: absolute;
     top: 224px;
     left: 0;
@@ -31,6 +31,7 @@
     @include font(14px, 700, 16px, 0.03em);
 
     text-align: center;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
     background-color: rgba(47, 48, 58, 0.8);
