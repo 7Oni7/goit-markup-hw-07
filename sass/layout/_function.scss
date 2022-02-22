@@ -1,18 +1,15 @@
-.function {
-    padding: 94px 0;
+// .function {
+//     padding: 94px 0;
+// }
+.section__nopaddingtop {
+    padding-top: 0;
 }
-.function-conteiner__title {
-    @include font(36px, null, 42px, 0.03em);
 
-    text-align: center;
-    color: var(--prymary-text-color);
-    margin-bottom: 50px;
-}
-.function-conteiner__list {
+.function {
     display: flex;
 }
 
-.function-conteiner__item {
+.function__item {
     position: relative;
 
     & + & {
@@ -20,10 +17,10 @@
     }
 }
 
-.function-conteiner__wrap {
+.function__wrap {
     position: relative;
 }
-.function-conteiner__top-text {
+.function__toptext {
     position: absolute;
     top: 224px;
     left: 0;

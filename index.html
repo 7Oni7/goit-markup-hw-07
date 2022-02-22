@@ -27,9 +27,9 @@
                     <span class="logo__first">Web</span>Studio</a
                 >
                 <nav class="navigation">
-                    <ul class="header-nav__list list">
+                    <ul class="header-nav list">
                         <li class="header-nav__item">
-                            <a href="./studio.html" class="header-nav__link current">Студия</a
+                            <a href="./studio.html" class="header-nav__link header-nav__current">Студия</a
                             >
                         </li>
                         <li class="header-nav__item">
@@ -46,7 +46,7 @@
                     <li class="header-connect__item">
                         <a
                             href="mailto:info@devstudio.com"
-                            class="header-connect__mail"
+                            class="header-connect__link"
                         >
                             <svg class="header-connect__icon" width="16" height="12">
                                 <use
@@ -57,7 +57,7 @@
                         </a>
                     </li>
                     <li class="header-connect__item">
-                        <a href="tel:+380961111111" class="header-connect__tel">
+                        <a href="tel:+380961111111" class="header-connect__link">
                             <svg class="header-connect__icon" width="10" height="16">
                                 <use
                                     href="images/icons.svg#icon-Vector-2"
@@ -71,77 +71,77 @@
         </header>
         <main>
             <section class="hero">
-                <div class="conteiner hero-conteiner">
-                    <h1 class="hero-conteiner__title">
+                <div class="conteiner">
+                    <h1 class="hero__title">
                         Эффективные решения <br />
                         для вашего бизнеса
                     </h1>
-                    <div class="hero-conteiner__box">
-                        <button class="hero-conteiner__btn" type="button" data-modal-open>
+                    <div class="hero__box">
+                        <button class="hero__btn" type="button" data-modal-open>
                             Заказать услугу
                         </button>
                     </div>
                 </div>
             </section>
-            <section class="about">
+            <section class="section">
                 <div class="conteiner">
                     <h2 class="visually-hidden">Наши преимущества</h2>
-                    <ul class="about-conteiner__list list">
-                        <li class="about-conteiner__item">
-                            <div class="about-conteiner__icon">
+                    <ul class="about__list">
+                        <li class="about__item">
+                            <div class="about__box ">
                                 <svg width="70" height="70">
                                     <use
                                         href="images/icons.svg#icon-antenna-1"
                                     ></use>
                                 </svg>
                             </div>
-                            <h3 class="about-conteiner__subtitle">
+                            <h3 class="about__title">
                                     Внимание к деталям
                                 </h3>
-                            <p class="about-conteiner__text">
+                            <p class="about__text">
                                 Идейные соображения, а также начало повседневной
                                 работы по формированию позиции.
                             </p>
                         </li>
-                        <li class="about-conteiner__item">
-                            <div class="about-conteiner__icon">
+                        <li class="about__item">
+                            <div class="about__box">
                                 <svg width="70" height="70">
                                     <use
                                         href="images/icons.svg#icon-clock-1"
                                     ></use>
                                 </svg>
                             </div>
-                            <h3 class="about-conteiner__subtitle">Пунктуальность</h3>
-                            <p class="about-conteiner__text">
+                            <h3 class="about__title">Пунктуальность</h3>
+                            <p class="about__text">
                                 Задача организации, в особенности же рамки и
                                 место обучения кадров влечет за собой.
                             </p>
                         </li>
-                        <li class="about-conteiner__item">
-                            <div class="about-conteiner__icon">
+                        <li class="about__item">
+                            <div class="about__box">
                                 <svg width="70" height="70">
                                     <use
                                         href="images/icons.svg#icon-Vector"
                                     ></use>
                                 </svg>
                             </div>
-                            <h3 class="about-conteiner__subtitle">Планирование</h3>
-                            <p class="about-conteiner__text">
+                            <h3 class="about__title">Планирование</h3>
+                            <p class="about__text">
                                 Равным образом консультация с широким активом в
                                 значительной степени обуславливает.
                             </p>
                         </li>
-                        <li class="about-conteiner__item">
-                            <div class="about-conteiner__icon">
+                        <li class="about__item">
+                            <div class="about__box">
                                 <svg width="70" height="70">
                                     <use
                                         href="images/icons.svg#icon-astronaut-1"
                                     ></use>
                                 </svg>
                             </div>
-                            <h3 class="about-conteiner__subtitle">Современные технологии
+                            <h3 class="about__title">Современные технологии
                                 </h3>
-                            <p class="about-conteiner__text">
+                            <p class="about__text">
                                 Значимость этих проблем настолько очевидна, что
                                 реализация плановых заданий.
                             </p>
@@ -149,45 +149,45 @@
                     </ul>
                 </div>
             </section>
-            <section class="function">
-                <div class="conteiner function-conteiner">
-                    <h2 class="function-conteiner__title">Чем мы занимаемся</h2>
-                    <ul class="function-conteiner__list list">
-                        <li class="function-conteiner__item">
-                            <div class="function-conteiner__wrap">
+            <section class="section section__nopaddingtop">
+                <div class="conteiner">
+                    <h2 class="section__title">Чем мы занимаемся</h2>
+                    <ul class="function">
+                        <li class="function__item">
+                            <div class="function__wrap">
                                 <img
                                     src="./images/box1.jpg"
                                     alt="робота с девайсами и приложениями"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="function-conteiner__top-text">
+                                <p class="function__toptext">
                                     Десктопные приложения
                                 </p>
                             </div>
                         </li>
-                        <li class="function-conteiner__item">
-                            <div class="function-conteiner__wrap">
+                        <li class="function__item">
+                            <div class="function__wrap">
                                 <img
                                     src="./images/box2.jpg"
                                     alt="робота с девайсами и приложениями"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="function-conteiner__top-text">
+                                <p class="function__toptext">
                                     Мобильные приложения
                                 </p>
                             </div>
                         </li>
-                        <li class="function-conteiner__item">
-                            <div class="function-conteiner__wrap">
+                        <li class="function__item">
+                            <div class="function__wrap">
                                 <img
                                     src="./images/box3.jpg"
                                     alt="робота с девайсами и приложениями"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="function-conteiner__top-text">
+                                <p class="function__toptext">
                                     Дизайнерские решения
                                 </p>
                             </div>
@@ -195,26 +195,26 @@
                     </ul>
                 </div>
             </section>
-            <section class="staff">
-                <div class="conteiner staff-conteiner">
-                    <h2 class="staff-conteiner__title">Наша команда</h2>
-                        <ul class="staff-conteiner__list list">
-                            <li class="staff-conteiner__item">
+            <section class="section section__thebackground">
+                <div class="conteiner">
+                    <h2 class="section__title">Наша команда</h2>
+                        <ul class="staff">
+                            <li class="staff__item">
                                     <img
                                     src="./images/img-1.jpg"
                                     alt="фото комонды"
                                     width="270"
                                     height="260"/>
-                                <div class="staff-box__content">
-                                    <h3 class="staff-box__subtitle">Игорь Демьяненко</h3>
-                                    <p class="staff-box__text" lang="en">
+                                <div class="staff__content">
+                                    <h3 class="staff__title">Игорь Демьяненко</h3>
+                                    <p class="staff__text" lang="en">
                                         Product Designer
                                     </p>
-                                    <ul class="staff-box__list list">
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                    <ul class="socials">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -224,10 +224,10 @@
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -237,10 +237,10 @@
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -250,10 +250,10 @@
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -266,23 +266,23 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="staff-conteiner__item">
+                            <li class="staff__item">
                                 <img
                                     src="./images/img-2.jpg"
                                     alt="фото комонды"
                                     width="270"
                                     height="260"
                                 />
-                                <div class="staff-box__content">
-                                    <h3 class="staff-box__subtitle">Ольга Репина</h3>
-                                    <p class="staff-box__text" lang="en">
+                                <div class="staff__content">
+                                    <h3 class="staff__title">Ольга Репина</h3>
+                                    <p class="staff__text" lang="en">
                                         Frontend Developer
                                     </p>
-                                    <ul class="staff-box__list list">
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                    <ul class="socials">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -292,10 +292,10 @@
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -305,10 +305,10 @@
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                        <li class="socials____item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -318,10 +318,10 @@
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -334,21 +334,21 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="staff-conteiner__item">
+                            <li class="staff__item">
                                 <img
                                     src="./images/img-3.jpg"
                                     alt="фото комонды"
                                     width="270"
                                     height="260"
                                 />
-                                <div class="staff-box__content">
-                                    <h3 class="staff-box__subtitle">Николай Тарасов</h3>
-                                    <p class="staff-box__text" lang="en">Marketing</p>
-                                    <ul class="staff-box__list list">
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                <div class="staff__content">
+                                    <h3 class="staff__title">Николай Тарасов</h3>
+                                    <p class="staff__text" lang="en">Marketing</p>
+                                    <ul class="socials">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -358,10 +358,10 @@
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -371,10 +371,10 @@
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -384,10 +384,10 @@
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -407,14 +407,14 @@
                                     width="270"
                                     height="260"
                                 />
-                                <div class="staff-box__content">
-                                    <h3 class="staff-box__subtitle">Михаил Ермаков</h3>
-                                    <p class="staff-box__text" lang="en">UI Designer</p>
-                                    <ul class="staff-box__list list">
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                <div class="staff__content">
+                                    <h3 class="staff__title">Михаил Ермаков</h3>
+                                    <p class="staff__text" lang="en">UI Designer</p>
+                                    <ul class="socials">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -424,10 +424,10 @@
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -437,10 +437,10 @@
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -450,10 +450,10 @@
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li class="staff-box__item">
-                                            <a href="" class="staff-box__link">
+                                        <li class="socials__item">
+                                            <a href="" class="socials__link">
                                                 <svg
-                                                    class="staff-box__icon"
+                                                    class="socials__icon"
                                                     width="20"
                                                     height="20"
                                                 >
@@ -469,10 +469,10 @@
                         </ul>
                 </div>
             </section>
-            <section class="clients">
+            <section class="section">
                 <div class="conteiner">
-                    <h2 class="clients__title">Постоянные клиенты</h2>
-                    <ul class="clients__list list">
+                    <h2 class="section__title">Постоянные клиенты</h2>
+                    <ul class="clients">
                         <li class="clients__item">
                             <a href="" class="clients__link">
                                 <svg
@@ -560,25 +560,25 @@
                 <div class="footer__box">
                     <a class="footer__logo" href="">
                         <span class="logo__second">Web</span>Studio</a>
-                        <address class="addres">
-                        <ul class="addres__list list">
-                            <li class="addres__item">
+                        <address class="address">
+                        <ul class="address__list">
+                            <li class="address__item">
                                 <a
                                 href="https://goo.gl/maps/M8mHJB1GpQQQzdo98"
                                 target="_blank"
                                 rel="noopener noreferrer nofollow"
-                                class="addres__text"
+                                class="address__text"
                                 >г. Киев, пр-т Леси Украинки, 26</a
                                 >
                             </li>
-                            <li class="addres__item">
+                            <li class="address__item">
                                 <a
                                 href="mailto:info@example.com"
-                                class="addres__mail"
+                                class="address__mail"
                                 >info@example.com</a
                                 >
                             </li>
-                            <li class="addres__item">
+                            <li class="address__item">
                             <a href="tel:+380991111111" class="addres__tel"
                                 >+38 099 111 11 11</a
                                 >

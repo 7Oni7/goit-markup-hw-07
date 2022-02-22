@@ -1,16 +1,15 @@
-.about {
-    padding: 94px 0;
-}
+// .about {
+//     padding: 94px 0;
 
-.about-conteiner__list {
+.about__list {
     display: flex;
 }
-.about-conteiner__item {
+.about__item {
     & + & {
         margin-left: 30px;
     }
 }
-.about-conteiner__icon {
+.about__box {
     margin-bottom: 30px;
 
     height: 120px;
@@ -21,7 +20,7 @@
     justify-content: center;
 }
 
-.about-conteiner__subtitle {
+.about__title {
     @include font(14px, 700, 16px, 0.03em);
 
     vertical-align: top;
@@ -29,7 +28,7 @@
     color: var(--prymary-text-color);
     text-transform: uppercase;
 }
-.about-conteiner__text {
+.about__text {
     @include font(14px, 400, 24px, 0.03em);
 
     color: var(--function-text-color);

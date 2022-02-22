@@ -15,7 +15,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-.hero-conteiner__title {
+.hero__title {
     font-family: 'Roboto', sans-serif;
     @include font(44px, 900, 60px, 0.06em);
 
@@ -25,11 +25,11 @@
     color: var(--title-text-color);
     margin-bottom: 30px;
 }
-.hero-conteiner__box {
+.hero__box {
     justify-content: center;
     display: flex;
 }
-.hero-conteiner__btn {
+.hero__btn {
     @include font(16px, 700, 30px, 0.06em);
 
     align-items: center;

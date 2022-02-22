@@ -1,15 +1,15 @@
-.hero-porfolio {
-    padding-top: 34px;
-    padding-bottom: 94px;
-}
+// .hero-porfolio {
+//     padding-top: 34px;
+//     padding-bottom: 94px;
+// }
 
-.hero-list-two {
+.description {
     display: flex;
     margin-left: -30px;
     margin-bottom: -30px;
     flex-wrap: wrap;
 }
-.hero-item-two {
+.description__item {
     width: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
@@ -18,20 +18,20 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover .hero-text-top {
+    &:hover .box__text {
         transform: translateY(0%);
     }
-    &:focus .hero-text-top {
+    &:focus .box__text {
         transform: translateY(0%);
     }
 }
 
-.hero-wrap {
+.box {
     position: relative;
 
     overflow: hidden;
 }
-.hero-text-top {
+.wrap__text {
     position: absolute;
     top: 0;
     left: 0;
@@ -47,7 +47,7 @@
     transition: transform 250ms;
 }
 
-.hero-link {
+.description__link {
     background: #ffffff;
     border: 1px solid #eeeeee;
     box-sizing: border-box;
@@ -64,7 +64,7 @@
     }
 }
 
-.hero-text-box {
+.infobox {
     padding-top: 20px;
     padding-left: 24px;
     padding-right: 24px;
@@ -74,7 +74,7 @@
     box-sizing: content-box;
 }
 
-.hero-title-two {
+.infobox__title {
     margin: 5px 0;
 
     font-family: 'Roboto', sans-serif;
@@ -82,7 +82,7 @@
 
     color: var(--prymary-text-color);
 }
-.hero-text-two {
+.infobox__text {
     font-family: 'Roboto', sans-serif;
     @include font(16px, 400, 30px, 0.03em);
 

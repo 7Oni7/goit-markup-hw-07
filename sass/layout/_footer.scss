@@ -22,7 +22,7 @@
     color: var(--accent-text-color);
 }
 
-.addres {
+.address {
     display: flex;
 
     margin-top: 20px;
@@ -32,19 +32,19 @@
     @include font(14px, 400, 24px, 0.03em);
 }
 
-.addres__item {
+.address__item {
     & + & {
         margin-top: 9px;
     }
 }
 
-.addres__text {
+.address__text {
     color: var(--title-text-color);
 }
-.addres__mail {
+.address__mail {
     color: rgba(255, 255, 255, 0.6);
 }
-.addres__tel {
+.address__tel {
     color: rgba(255, 255, 255, 0.6);
 }
 
